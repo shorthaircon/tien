@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #231C1A;
+    height:80px;
+    width:100%;
+}
+header a, h1{
+    color:white;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+header li{
+    display:inline;
+    margin-right:4vw;
+}
+header ul{
+    position:absolute;
+    left: 30px;
+    top: 50px;
+}
+h1{
+    position:absolute;
+    left: 90px;
+}
+main{
+    margin: 10px 30px;
+}
+.me{
+    margin-top: 20px;
+}
+.SNS ul{
+    margin-top: 10px;
+}
+.logo img{
+    width: 60px;
+    position:absolute;
+    top: 9px;
+    left: 15px;
+}
