@@ -31,14 +31,22 @@ main{
     margin: 10px 30px;
 }
 .me{
-    margin-top: 20px;
+    margin-top: 15px;
 }
-.SNS ul{
-    margin-top: 10px;
+.SNS{
+    display: flex;
 }
 .logo img{
     width: 60px;
     position:absolute;
     top: 9px;
     left: 15px;
+}
+.line{
+    margin-top: 20px;
+    background-color: bisque;
+}
+/* 響應式設計語法 */
+@media screen and (max-width: 768px) {
+
 }
