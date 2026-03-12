@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+head{
+    /* 預設樣式（手機版） */
+        body { font-size: 16px; margin: 0; padding: 10px; }
+        .container { width: 100%; }
+        
+        /* 平板或電腦版調整 (螢幕寬度 > 768px) */
+        @media (min-width: 768px) {
+            .container { width: 750px; margin: auto; }
+        }
+}
+header{
+    background-color: #231C1A;
+    height:80px;
+    width:100%;
+}
+header a, h1{
+    color:white;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+header li{
+    display:inline;
+    margin-right:4vw;
+}
+header ul{
+    position:absolute;
+    left: 30px;
+    top: 50px;
+}
+h1{
+    position:absolute;
+    left: 90px;
+}
+main{
+    margin: 10px 30px;
+}
+.logo img{
+    width: 60px;
+    position:absolute;
+    top: 9px;
+    left: 15px;
+}
+.other-me{
+    margin-top: 15px;
+    height: 450px;
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+footer{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+/* 響應式設計語法 */
+@media screen and (max-width: 768px) {
+    .SNS{
+        display: flow;
+    }
+    .SNS img{
+        margin-top: 20px;
+    }
+
+}
