@@ -40,11 +40,17 @@ h1{
 main{
     margin: 10px 30px;
 }
+.SNS-href{
+    float:left;
+}
 .me{
     margin-top: 15px;
+    height: 450px;
+    text-align: justify;
+    text-justify: inter-ideograph;
 }
-.SNS{
-    display: flex;
+.me img{
+    margin-top: 10px;
 }
 .logo img{
     width: 60px;
@@ -56,7 +62,17 @@ main{
     margin-top: 20px;
     background-color: bisque;
 }
+footer{
+    margin-top: 50px;
+    margin-left: 80px;
+}
 /* 響應式設計語法 */
 @media screen and (max-width: 768px) {
+    .SNS{
+        display: flow;
+    }
+    .SNS img{
+        margin-top: 20px;
+    }
 
 }
