@@ -28,10 +28,11 @@ header li{
     display:inline;
     margin-right:4vw;
 }
-header ul{
+header table{
     position:absolute;
-    left: 30px;
+    left: 28px;
     top: 50px;
+    line-height: 23px
 }
 h1{
     position:absolute;
@@ -60,7 +61,6 @@ main{
 }
 .line{
     margin-top: 20px;
-    background-color: bisque;
 }
 footer{
     margin-top: 50px;
@@ -74,5 +74,7 @@ footer{
     .SNS img{
         margin-top: 20px;
     }
-
+    header table{
+    width: 200px;
+    }
 }
