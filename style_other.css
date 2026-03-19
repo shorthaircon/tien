@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
 }
+
 head{
     /* 預設樣式（手機版） */
         body { font-size: 16px; margin: 0; padding: 10px; }
@@ -11,11 +12,19 @@ head{
         @media (min-width: 768px) {
             .container { width: 750px; margin: auto; }
         }
-}
+} 
+
+
 header{
     background-color: #231C1A;
     height:80px;
     width:100%;
+}
+header table{
+    position:absolute;
+    left: 28px;
+    top: 50px;
+    line-height: 23px
 }
 header a, h1{
     color:white;
@@ -64,5 +73,7 @@ footer{
     .SNS img{
         margin-top: 20px;
     }
-
+    header table{
+    width: 200px;
+    }
 }
